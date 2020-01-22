@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #03a9f4;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  font-size: 1.1em;
+}
+
+.data-container {
+  margin-top: 25px;
+}
+
+.search-btn {
+  width: 240px;
+  height: 40px;
+  font-size: 1.2em;
+  font-weight: 500;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #ffeb3b;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+}
+
+.keys {
+  font-weight: 520;
+  text-transform: uppercase;
+}
